@@ -30,3 +30,4 @@ for ciudad in range(len(temperaturas)):
             suma_temperaturas += temperaturas[ciudad][semana][dia]
         promedio_temperaturas = suma_temperaturas / len(temperaturas[ciudad][semana])
         print(f"Promedio de temperaturas para la Ciudad {ciudad + 1}, Semana {semana + 1}: {promedio_temperaturas}")
+
