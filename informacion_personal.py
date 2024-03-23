@@ -1,5 +1,5 @@
 # Crear un diccionario con información personal
-informacion_personal = {
+Informacion_personal = {
     "Nombre": "Juan",
     "Cedula": 1600324567,
     "Ciudad": "Pastaza",
@@ -7,18 +7,18 @@ informacion_personal = {
 }
 
 # Agregar una nueva clave-valor representando la profesión
-informacion_personal["Profesion"] = "Psicologo"
+Informacion_personal["Profesion"] = "Psicologo"
 
 # Acceder al valor de la clave "ciudad" y modificarlo
-informacion_personal[ "Parroquia"] = "Mera"
+Informacion_personal[ "Parroquia"] = "Mera"
 
 # Verificar si la clave "Edad" existe y agregarla si no
-if "Edad" not in informacion_personal:
-    informacion_personal["Edad"] = "35"
+if "Edad" not in Informacion_personal:
+    Informacion_personal["Edad"] = "35"
 
 # Eliminar la clave "Cedula" del diccionario
-if "Cedula" in informacion_personal:
-    del informacion_personal["Cedula"]
+if "Cedula" in Informacion_personal:
+    del Informacion_personal["Cedula"]
 
 # Imprimir el diccionario final
-print(informacion_personal)
+print(Informacion_personal)
